@@ -1,12 +1,13 @@
 {
-  "name": "bot-discord-logs",
+  "name": "zyphor-logs",
   "version": "1.0.0",
-  "description": "Bot de logs e boas-vindas com painel de configuração restrito",
+  "description": "Bot de logs e boas-vindas",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
+    "better-sqlite3": "^11.8.0",
     "discord.js": "^14.14.1",
     "quick.db": "^9.1.7"
   },
