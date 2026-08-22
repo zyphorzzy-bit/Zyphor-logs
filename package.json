@@ -1,0 +1,16 @@
+{
+  "name": "bot-discord-logs",
+  "version": "1.0.0",
+  "description": "Bot de logs e boas-vindas com painel de configuração restrito",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "quick.db": "^9.1.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
