@@ -4,7 +4,8 @@
   "description": "Bot de logs, boas-vindas e ranking de voz da Fox",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "postinstall": "npm rebuild better-sqlite3"
   },
   "dependencies": {
     "better-sqlite3": "^11.8.0",
