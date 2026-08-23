@@ -7,8 +7,8 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "crockdb": "^1.0.2",
-    "discord.js": "^14.14.1"
+    "discord.js": "^14.14.1",
+    "jsoning": "^0.11.2"
   },
   "engines": {
     "node": ">=18.0.0"
