@@ -1,7 +1,7 @@
 {
   "name": "zyphor-logs",
   "version": "1.0.0",
-  "description": "Bot de logs e boas-vindas",
+  "description": "Bot de logs, boas-vindas e ranking de voz da Fox",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
