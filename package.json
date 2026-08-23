@@ -4,13 +4,11 @@
   "description": "Bot de logs, boas-vindas e ranking de voz da Fox",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "postinstall": "npm rebuild better-sqlite3"
+    "start": "node index.js"
   },
   "dependencies": {
-    "better-sqlite3": "^11.8.0",
-    "discord.js": "^14.14.1",
-    "quick.db": "^9.1.7"
+    "crockdb": "^1.0.2",
+    "discord.js": "^14.14.1"
   },
   "engines": {
     "node": ">=18.0.0"
