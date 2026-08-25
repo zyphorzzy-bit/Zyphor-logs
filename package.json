@@ -1,16 +1,16 @@
 {
-  "name": "zyphor-logs",
+  "name": "bot-discord",
   "version": "1.0.0",
-  "description": "Bot de logs, boas-vindas e ranking de voz da Fox",
+  "description": "Bot Discord com Rank de Call, Moderacao e Logs",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "discord.js": "^14.14.1",
-    "jsoning": "^0.11.2"
+    "jsoning": "^0.11.4"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=16.0.0"
   }
 }
