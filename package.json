@@ -1,17 +1,16 @@
 {
-  "name": "bot-discord",
+  "name": "bot-servidor-discord",
   "version": "1.0.0",
-  "description": "Bot Discord com Rank de Call, Moderacao e Logs",
+  "description": "Bot Principal com Rank de Call, Logs e Validação de Licença Local",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.39.0",
     "discord.js": "^14.14.1",
     "jsoning": "^0.11.4"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=16.0.0"
   }
 }
